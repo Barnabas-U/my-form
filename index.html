@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 class="greeting">Welcome To Hell</h1>
+
+    <form action="/signup" method="post" id="signup">
+        <h1>Sign Up For A Tour</h1>
+        <div id="error"></div>
+
+        <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Fullname">
+            <small></small>
+        </div>
+
+        <div class="field">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Enter Age">
+        </div>
+
+        <div class="field">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter Your Email Address">
+            <small></small>
+        </div>
+
+        <div class="field">
+            <label for="Sin">Sin</label>
+            <input type="text" id="sin" name="sin" placeholder="Enter Your Sins">
+            <small></small>
+        </div>
+
+        <button type="submit"><span></span>Subscribe</button>
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
